@@ -20,3 +20,24 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+#trash{
+  color: red;
+}
+
+#details{
+  color: blue;
+}
+
+#edit{
+  color: green;
+}
+
+#exit{
+  color: #000000;
+}
+
+.removeLink{
+  text-decoration: none;
+  color: black
+}
