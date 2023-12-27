@@ -5,11 +5,11 @@
     ViewData["Title"] = "Lista de Produtos";
 }
 
-<h1>Lista de Produtos</h1>
+<h1 class="listaProdutos">Lista de Produtos</h1>
 
-<p>
-    <a asp-page="Create" class="removeLink">Novo Produto</a>
-</p>
+<div class="novoProduto">
+    <button asp-page="Create" class="btn btn-info">Novo Produto</button>
+</div>
 <table class="table">
     <thead>
         <tr>

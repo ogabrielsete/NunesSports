@@ -18,7 +18,7 @@ namespace NunesSports.Pages_Products
             _context = context;
         }
 
-        public IList<Product> Product { get;set; } = default!;
+        public IList<Product> Product { get; set; } = default!;
 
         public async Task OnGetAsync()
         {

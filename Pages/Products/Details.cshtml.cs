@@ -18,7 +18,7 @@ namespace NunesSports.Pages_Products
             _context = context;
         }
 
-      public Product Product { get; set; } = default!; 
+        public Product Product { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -32,7 +32,7 @@ namespace NunesSports.Pages_Products
             {
                 return NotFound();
             }
-            else 
+            else
             {
                 Product = product;
             }

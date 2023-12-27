@@ -19,6 +19,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #trash{
@@ -41,3 +42,20 @@ body {
   text-decoration: none;
   color: black
 }
+
+.listaProdutos{
+  display: flex;
+  justify-content: center;
+}
+
+.novoProduto{
+  display:flex;
+  justify-content: center;
+}
+
+.btn-info:hover{
+  color:white;
+  text-decoration:solid;
+  transform:  scale(1.05); 
+}
+
